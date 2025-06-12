@@ -306,11 +306,13 @@ extension SpotifyController: SPTAppRemoteDelegate {
 
 extension SpotifyController: SPTAppRemotePlayerStateDelegate {
     func playerStateDidChange(_ playerState: SPTAppRemotePlayerState) {
+        if self.currentTrackURI != playerState.track.uri {
+            fetchImage()
+        }
         self.currentTrackURI = playerState.track.uri
         self.currentTrackName = playerState.track.name
         self.currentTrackArtist = playerState.track.artist.name
         self.currentTrackDuration = Int(playerState.track.duration) / 1000 // playerState.track.duration is in milliseconds
         self.isPaused = playerState.isPaused
-        fetchImage()
     }
 }

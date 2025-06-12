@@ -30,6 +30,8 @@ class Workout: ObservableObject {
     var id = UUID()
     var workoutName: String
     
+    @ObservedObject var spotifyController = SpotifyController.shared
+    
     @Published var intervals: [Interval] = []
     @Published var numberOfIntervals = 0
     @Published var restDuration: Double = 0
@@ -122,6 +124,7 @@ class Workout: ObservableObject {
         if self.currentPhase == .active {
             self.timeRemaining = self.restDuration
             self.currentPhase = .rest
+            self.spotifyController.currentTrackImage = nil
         } else {
             let interval = intervals[self.currentInterval]
             self.timeRemaining = interval.duration

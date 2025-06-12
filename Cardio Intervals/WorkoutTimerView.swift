@@ -26,12 +26,11 @@ struct WorkoutTimerView: View {
                     Image(uiImage: currentTrackImage)
                         .resizable()
                         .scaledToFit()
-                        .blur(radius: 2)
                         .edgesIgnoringSafeArea(.all)
                         .overlay(
-                                Rectangle()
-                                    .foregroundColor(colorScheme == .dark ? Color.black.opacity(0.5) : Color.white.opacity(0.5))
-                            )
+                            Rectangle()
+                                .foregroundColor(colorScheme == .dark ? Color.black.opacity(0.5) : Color.white.opacity(0.5))
+                        )
                 }
                 
                 VStack {
