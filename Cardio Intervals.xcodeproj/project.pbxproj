@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F317CEC52BC13A9000BC2F27 /* WorkoutInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F317CEC42BC13A9000BC2F27 /* WorkoutInfoView.swift */; };
+		F317CEC72BC13AC400BC2F27 /* WorkoutTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F317CEC62BC13AC400BC2F27 /* WorkoutTimerView.swift */; };
+		F317CEC92BC13E5700BC2F27 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F317CEC82BC13E5700BC2F27 /* Workout.swift */; };
+		F317CECD2BC2EEA900BC2F27 /* CreateWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F317CECC2BC2EEA900BC2F27 /* CreateWorkoutView.swift */; };
+		F317CECF2BC2EEF100BC2F27 /* WorkoutsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F317CECE2BC2EEF100BC2F27 /* WorkoutsListView.swift */; };
+		F317CED12BC3C03800BC2F27 /* MusicSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F317CED02BC3C03800BC2F27 /* MusicSettingsView.swift */; };
+		F317CED92BC58AC500BC2F27 /* SpotifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F317CED82BC58AC500BC2F27 /* SpotifyController.swift */; };
+		F317CEDC2BC58B1800BC2F27 /* SpotifyiOS in Frameworks */ = {isa = PBXBuildFile; productRef = F317CEDB2BC58B1800BC2F27 /* SpotifyiOS */; };
+		F35DE8E52BE617C0001DE577 /* WorkoutInfoComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE8E42BE617C0001DE577 /* WorkoutInfoComponent.swift */; };
+		F35DE8E72BE6187E001DE577 /* MyStepperComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE8E62BE6187E001DE577 /* MyStepperComponent.swift */; };
+		F35DE8E92BE6ECAD001DE577 /* IntervalSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35DE8E82BE6ECAD001DE577 /* IntervalSettingsView.swift */; };
+		F39883FA2BCAE6A00068F634 /* PlaylistListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39883F92BCAE6A00068F634 /* PlaylistListView.swift */; };
+		F39883FC2BD05ACC0068F634 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39883FB2BD05ACC0068F634 /* ColorExtension.swift */; };
+		F39884002BD59FCD0068F634 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39883FF2BD59FCD0068F634 /* WorkoutManager.swift */; };
+		F3DF756D2BB99C3F003A51D4 /* Cardio_IntervalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DF756C2BB99C3F003A51D4 /* Cardio_IntervalsApp.swift */; };
+		F3DF756F2BB99C3F003A51D4 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DF756E2BB99C3F003A51D4 /* WorkoutView.swift */; };
+		F3DF75712BB99C40003A51D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DF75702BB99C40003A51D4 /* Assets.xcassets */; };
+		F3DF75742BB99C40003A51D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3DF75732BB99C40003A51D4 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F317CEC42BC13A9000BC2F27 /* WorkoutInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutInfoView.swift; sourceTree = "<group>"; };
+		F317CEC62BC13AC400BC2F27 /* WorkoutTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTimerView.swift; sourceTree = "<group>"; };
+		F317CEC82BC13E5700BC2F27 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		F317CECC2BC2EEA900BC2F27 /* CreateWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkoutView.swift; sourceTree = "<group>"; };
+		F317CECE2BC2EEF100BC2F27 /* WorkoutsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsListView.swift; sourceTree = "<group>"; };
+		F317CED02BC3C03800BC2F27 /* MusicSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSettingsView.swift; sourceTree = "<group>"; };
+		F317CED42BC512F500BC2F27 /* Cardio Intervals-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cardio Intervals-Bridging-Header.h"; sourceTree = "<group>"; };
+		F317CED72BC514FE00BC2F27 /* Cardio-Intervals-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Cardio-Intervals-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F317CED82BC58AC500BC2F27 /* SpotifyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyController.swift; sourceTree = "<group>"; };
+		F35DE8E42BE617C0001DE577 /* WorkoutInfoComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutInfoComponent.swift; sourceTree = "<group>"; };
+		F35DE8E62BE6187E001DE577 /* MyStepperComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStepperComponent.swift; sourceTree = "<group>"; };
+		F35DE8E82BE6ECAD001DE577 /* IntervalSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalSettingsView.swift; sourceTree = "<group>"; };
+		F39883F92BCAE6A00068F634 /* PlaylistListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistListView.swift; sourceTree = "<group>"; };
+		F39883FB2BD05ACC0068F634 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		F39883FF2BD59FCD0068F634 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		F3DF75692BB99C3F003A51D4 /* Cardio Intervals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cardio Intervals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3DF756C2BB99C3F003A51D4 /* Cardio_IntervalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardio_IntervalsApp.swift; sourceTree = "<group>"; };
+		F3DF756E2BB99C3F003A51D4 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		F3DF75702BB99C40003A51D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3DF75732BB99C40003A51D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3DF75662BB99C3F003A51D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F317CEDC2BC58B1800BC2F27 /* SpotifyiOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3DF75602BB99C3F003A51D4 = {
+			isa = PBXGroup;
+			children = (
+				F3DF756B2BB99C3F003A51D4 /* Cardio Intervals */,
+				F3DF756A2BB99C3F003A51D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3DF756A2BB99C3F003A51D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3DF75692BB99C3F003A51D4 /* Cardio Intervals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3DF756B2BB99C3F003A51D4 /* Cardio Intervals */ = {
+			isa = PBXGroup;
+			children = (
+				F317CED72BC514FE00BC2F27 /* Cardio-Intervals-Info.plist */,
+				F3DF756C2BB99C3F003A51D4 /* Cardio_IntervalsApp.swift */,
+				F3DF756E2BB99C3F003A51D4 /* WorkoutView.swift */,
+				F317CEC42BC13A9000BC2F27 /* WorkoutInfoView.swift */,
+				F317CEC82BC13E5700BC2F27 /* Workout.swift */,
+				F317CEC62BC13AC400BC2F27 /* WorkoutTimerView.swift */,
+				F3DF75702BB99C40003A51D4 /* Assets.xcassets */,
+				F317CECC2BC2EEA900BC2F27 /* CreateWorkoutView.swift */,
+				F317CECE2BC2EEF100BC2F27 /* WorkoutsListView.swift */,
+				F317CED02BC3C03800BC2F27 /* MusicSettingsView.swift */,
+				F3DF75722BB99C40003A51D4 /* Preview Content */,
+				F317CED42BC512F500BC2F27 /* Cardio Intervals-Bridging-Header.h */,
+				F317CED82BC58AC500BC2F27 /* SpotifyController.swift */,
+				F39883F92BCAE6A00068F634 /* PlaylistListView.swift */,
+				F39883FB2BD05ACC0068F634 /* ColorExtension.swift */,
+				F39883FF2BD59FCD0068F634 /* WorkoutManager.swift */,
+				F35DE8E42BE617C0001DE577 /* WorkoutInfoComponent.swift */,
+				F35DE8E62BE6187E001DE577 /* MyStepperComponent.swift */,
+				F35DE8E82BE6ECAD001DE577 /* IntervalSettingsView.swift */,
+			);
+			path = "Cardio Intervals";
+			sourceTree = "<group>";
+		};
+		F3DF75722BB99C40003A51D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3DF75732BB99C40003A51D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3DF75682BB99C3F003A51D4 /* Cardio Intervals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3DF758D2BB99C41003A51D4 /* Build configuration list for PBXNativeTarget "Cardio Intervals" */;
+			buildPhases = (
+				F3DF75652BB99C3F003A51D4 /* Sources */,
+				F3DF75662BB99C3F003A51D4 /* Frameworks */,
+				F3DF75672BB99C3F003A51D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cardio Intervals";
+			packageProductDependencies = (
+				F317CEDB2BC58B1800BC2F27 /* SpotifyiOS */,
+			);
+			productName = "Cardio Intervals";
+			productReference = F3DF75692BB99C3F003A51D4 /* Cardio Intervals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3DF75612BB99C3F003A51D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F3DF75682BB99C3F003A51D4 = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+				};
+			};
+			buildConfigurationList = F3DF75642BB99C3F003A51D4 /* Build configuration list for PBXProject "Cardio Intervals" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3DF75602BB99C3F003A51D4;
+			packageReferences = (
+				F317CEDA2BC58B1800BC2F27 /* XCRemoteSwiftPackageReference "ios-sdk" */,
+			);
+			productRefGroup = F3DF756A2BB99C3F003A51D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3DF75682BB99C3F003A51D4 /* Cardio Intervals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3DF75672BB99C3F003A51D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3DF75742BB99C40003A51D4 /* Preview Assets.xcassets in Resources */,
+				F3DF75712BB99C40003A51D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3DF75652BB99C3F003A51D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F317CECD2BC2EEA900BC2F27 /* CreateWorkoutView.swift in Sources */,
+				F3DF756F2BB99C3F003A51D4 /* WorkoutView.swift in Sources */,
+				F39883FA2BCAE6A00068F634 /* PlaylistListView.swift in Sources */,
+				F35DE8E72BE6187E001DE577 /* MyStepperComponent.swift in Sources */,
+				F39883FC2BD05ACC0068F634 /* ColorExtension.swift in Sources */,
+				F3DF756D2BB99C3F003A51D4 /* Cardio_IntervalsApp.swift in Sources */,
+				F317CEC52BC13A9000BC2F27 /* WorkoutInfoView.swift in Sources */,
+				F317CED92BC58AC500BC2F27 /* SpotifyController.swift in Sources */,
+				F35DE8E92BE6ECAD001DE577 /* IntervalSettingsView.swift in Sources */,
+				F317CEC72BC13AC400BC2F27 /* WorkoutTimerView.swift in Sources */,
+				F317CECF2BC2EEF100BC2F27 /* WorkoutsListView.swift in Sources */,
+				F317CED12BC3C03800BC2F27 /* MusicSettingsView.swift in Sources */,
+				F39884002BD59FCD0068F634 /* WorkoutManager.swift in Sources */,
+				F317CEC92BC13E5700BC2F27 /* Workout.swift in Sources */,
+				F35DE8E52BE617C0001DE577 /* WorkoutInfoComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3DF758B2BB99C41003A51D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3DF758C2BB99C41003A51D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3DF758E2BB99C41003A51D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cardio Intervals/Preview Content\"";
+				DEVELOPMENT_TEAM = GGZX33PCN8;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cardio\\ Intervals",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cardio-Intervals-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "Isak.Cardio-Intervals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Cardio Intervals/Cardio Intervals-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3DF758F2BB99C41003A51D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cardio Intervals/Preview Content\"";
+				DEVELOPMENT_TEAM = GGZX33PCN8;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Cardio\\ Intervals",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cardio-Intervals-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "Isak.Cardio-Intervals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Cardio Intervals/Cardio Intervals-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3DF75642BB99C3F003A51D4 /* Build configuration list for PBXProject "Cardio Intervals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DF758B2BB99C41003A51D4 /* Debug */,
+				F3DF758C2BB99C41003A51D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3DF758D2BB99C41003A51D4 /* Build configuration list for PBXNativeTarget "Cardio Intervals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3DF758E2BB99C41003A51D4 /* Debug */,
+				F3DF758F2BB99C41003A51D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F317CEDA2BC58B1800BC2F27 /* XCRemoteSwiftPackageReference "ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spotify/ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F317CEDB2BC58B1800BC2F27 /* SpotifyiOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F317CEDA2BC58B1800BC2F27 /* XCRemoteSwiftPackageReference "ios-sdk" */;
+			productName = SpotifyiOS;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F3DF75612BB99C3F003A51D4 /* Project object */;
+}
